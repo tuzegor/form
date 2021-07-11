@@ -81,9 +81,14 @@ img {
   padding-top: 21px;
   padding-bottom: 11px;
 }
+
 .form-input:not(:placeholder-shown) {
   padding-top: 21px;
   padding-bottom: 11px;
+}
+
+.form-input:not(:placeholder-shown):invalid {
+  border-color: red;
 }
 
 textarea.form-input {
