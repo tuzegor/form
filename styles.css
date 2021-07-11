@@ -87,9 +87,6 @@ img {
   padding-bottom: 11px;
 }
 
-.form-input:not(:placeholder-shown):invalid {
-  border-color: red;
-}
 
 textarea.form-input {
   width: 100%;
